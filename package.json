@@ -1,0 +1,27 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "CLI App utilizing MySQL, similar to Amazon.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennistonc/bamazon.git"
+  },
+  "author": "Catherine Denniston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennistonc/bamazon/issues"
+  },
+  "homepage": "https://github.com/dennistonc/bamazon#readme",
+  "dependencies": {
+    "cli-table3": "^0.6.0",
+    "colors": "^1.4.0",
+    "figlet": "^1.3.0",
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1",
+    "package-banner": "^0.1.2"
+  }
+}
